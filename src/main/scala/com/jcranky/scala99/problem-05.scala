@@ -1,6 +1,8 @@
 package com.jcranky.scala99
 
 /**
+ * Comments published at: http://jcranky.com/2011/06/25/scala-problem-number-five/
+ * 
  * P05 (*) Reverse a list.
  * Example:
  * 

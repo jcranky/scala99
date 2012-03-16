@@ -1,6 +1,8 @@
 package com.jcranky.scala99
 
 /**
+ * Comments published at: http://jcranky.com/2011/08/21/scala-problem-number-six/
+ * 
  * P06 (*) Find out whether a list is a palindrome.
  * Example:
  * 

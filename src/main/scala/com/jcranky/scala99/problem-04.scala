@@ -1,6 +1,8 @@
 package com.jcranky.scala99
 
 /**
+ * Comments published at: http://jcranky.com/2011/05/20/scala-problem-number-four/
+ *
  * P04 (*) Find the number of elements of a list.
  * Example:
  * 

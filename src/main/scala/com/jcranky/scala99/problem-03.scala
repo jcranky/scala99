@@ -1,6 +1,8 @@
 package com.jcranky.scala99
 
 /**
+ * Comments published at: http://jcranky.com/2011/05/01/scala-problem-number-three/
+ *
  * P03 (*) Find the Kth element of a list.
  * By convention, the first element in the list is element 0.
  * Example:

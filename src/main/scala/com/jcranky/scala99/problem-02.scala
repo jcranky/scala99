@@ -1,6 +1,8 @@
 package com.jcranky.scala99
 
 /**
+ * Comments published at: http://jcranky.com/2010/05/21/scala-problem-number-two/
+ *
  * P02 (*) Find the last but one element of a list.
  * Example:
  * 
