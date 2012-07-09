@@ -12,7 +12,7 @@ package com.jcranky.scala99
 object Problem07 {
   def flatten(listStructure: List[Any]): List[Int] = {
     def getInts(a: Any): List[Int] = a match {
-      case x: Int => List(x)
+      case x: Int => List(x)  // wrap the element in a list to make the flatten call work
       case head :: tail => getInts(head) ++ tail.map(getInts).flatten
       case other => throw new IllegalArgumentException("illegal element found: " + other)
     }
