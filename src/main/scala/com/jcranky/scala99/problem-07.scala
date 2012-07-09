@@ -10,5 +10,13 @@ package com.jcranky.scala99
  *   res0: List[Any] = List(1, 1, 2, 3, 5, 8)
  */
 object Problem07 {
-  def bla = false
+  def flatten(listStructure: List[Any]): List[Int] = {
+    def getInts(a: Any): List[Int] = a match {
+      case x: Int => List(x)
+      case head :: tail => getInts(head) ++ tail.map(getInts).flatten
+      case other => throw new IllegalArgumentException("illegal element found: " + other)
+    }
+    
+    listStructure.map(getInts).flatten
+  }
 }
