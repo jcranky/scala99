@@ -1,5 +1,7 @@
 /target/
+/nbproject/
 /nbproject/private/
 /project/target
-/nbproject/
+/project/project
 /build.xml
+
