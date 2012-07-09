@@ -1,8 +1,6 @@
 package com.jcranky.scala99
 
 /**
- * Comments published at: ??
- * 
  * P07 (**) Flatten a nested list structure.
  *   Example:
  *
@@ -18,5 +16,10 @@ object Problem07 {
     }
     
     listStructure.map(getInts).flatten
+  }
+  
+  def flattenPhil(ls: List[Any]): List[Any] = ls flatMap {
+    case ms: List[_] => flattenPhil(ms)
+    case e => List(e)
   }
 }
