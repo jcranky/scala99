@@ -1,10 +1,7 @@
-
 name := "Scala 99 Problems"
 
-scalaVersion := "2.9.2"
+scalaVersion := "2.10.1"
 
 libraryDependencies ++= Seq(
-    "org.specs2" %% "specs2" % "1.12.1" % "test" withSources
+    "org.specs2" %% "specs2" % "1.14" % "test" withSources
 )
-
-seq(netbeans.NetbeansTasks.netbeansSettings:_*)
