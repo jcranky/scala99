@@ -8,15 +8,15 @@ class Problem09Spec extends Specification {
   
   "the packer" should {
     "pack correctly all the elements with fold left" in {
-      Problem09.packFoldLeft(original) must containAllOf(expected).only.inOrder
+      Problem09.packFoldLeft(original) === expected
     }
     
     "pack correctly all the elements with recursive call" in {
-      Problem09.packRecursive(original) must containAllOf(expected).only.inOrder
+      Problem09.packRecursive(original) === expected
     }
     
     "pack correctly all the elements with Phil's solution" in {
-      Problem09.packPhil(original) must containAllOf(expected).only.inOrder
+      Problem09.packPhil(original) === expected
     }
   }
 }
