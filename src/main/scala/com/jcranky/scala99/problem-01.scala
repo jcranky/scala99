@@ -10,7 +10,7 @@ package com.jcranky.scala99
  * res0: Int = 8
  */
 object Problem01 {
-  def last[A](list: List[A]): A = list(list.size-1)
+  def last[A](list: List[A]): A = list(list.size - 1)
 
   def lastBuiltin[A](list: List[A]): A = list.last
 
